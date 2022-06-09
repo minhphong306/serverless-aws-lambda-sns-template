@@ -1,0 +1,23 @@
+{
+  "Test": "8tyaGPx7L9XYybWyKwuxUjXaerYU6yEpjQ7fxcjWrUM5",
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:ap-southeast-1:477360120763:marketplace_sync_dispatcher:0e6264c8-fc67-4751-b57c-8a8ed537f0b7",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "346ae3e8-b79d-5338-9c79-b94c7da3ede4",
+        "TopicArn": "arn:aws:sns:a5p-southeast-1:477360120763:marketplace_sync_dispatcher",
+        "Subject": "Test",
+        "Message": "{\"type\":\"withdraw|claim\",\"kind\":\"requested|rejected|approved\",\"userId\":\"xxx\"}",
+        "Timestamp": "2022-03-11T03:54:38.328Z",
+        "SignatureVersion": "1",
+        "Signature": "sMmE/u8V2ib6SMlJlAiEIIj5JlkNL2jJ7xlgJZNzISkcyPKOPKpoFtX8egmPi9CFtucoznkO5CPwI KvESVnxyhx2mQ0IoFIRUB4rdGCAiAxCL9ZoaaiY+k+Xjd6+Fvy4heqb9mQiSX1MHKhG7NR+oUgxEfE2y6ERANYJVJHBM8IO0kZzBubgQImwJDLQWP+68c6YbbBMZuAQtdQYjp8dipUDJvnV3QBK1jcm7zgGoksCWiBIo3HImFYDvP/R+tz3ChRfOW3hUZrQOvBdDATbx6lHxeoGdrwlCSKJ9bxnZvGrZhVxarhW4smQOpKLJCD7XFQCxgzw9IcqayZzt0EyZQ==",
+        "SigningCertUrl": "https://sns.ap-southeast-1.amazonaws.com/SimpleNotificationService-7ff5318490ec183fbaddaa2a969abfda.pem",
+        "UnsubscribeUrl": "https://sns.ap-southeast-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:ap-southeast-1:477360120763:marketplace_sync_dispatcher:0e6264c8-fc67-4751-b57c-8a8ed537f0b7",
+        "MessageAttributes": {}
+      }
+    }
+  ]
+}
