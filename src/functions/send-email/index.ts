@@ -6,14 +6,5 @@ export default {
         securityGroupIds: '${self:custom.lambda.${opt:stage}.vpcSecurityGroupIds}',
         subnetIds: '${self:custom.lambda.${opt:stage}.vpcSubnetIds}',
     },
-    events: [
-        {
-            schedule: {
-                rate: [
-                    'rate(24 hours)'
-                ]
-            }
-        },
-    ],
     timeout: 900
 };
